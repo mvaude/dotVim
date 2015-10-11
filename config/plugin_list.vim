@@ -13,5 +13,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'bling/vim-airline'
 Plugin 'chriskempson/base16-vim'
 
+call vundle#end()
+
 " Re-enable filetype
 filetype indent on
