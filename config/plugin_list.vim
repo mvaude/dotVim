@@ -8,9 +8,13 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Utilities
+Plugin 'mbbill/undotree'
 
 " Visual
 Plugin 'sjl/badwolf'
+
+" Misc
+Plugin 'Shougo/neocomplete.vim'
 
 call vundle#end()
 

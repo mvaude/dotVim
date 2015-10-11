@@ -15,3 +15,5 @@ inoremap jk <esc>
 nnoremap <leader><space> :noh<CR>
 " space open/closes folds
 nnoremap <space> za
+" toggle undotree
+nnoremap <leader>u :UndotreeToggle<CR>
