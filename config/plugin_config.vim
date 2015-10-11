@@ -1,5 +1,6 @@
 " Colorscheme
 set background=dark
+colorscheme badwolf
 
 " Airline, the status line of awesome
 " let g:airline_theme='base16'

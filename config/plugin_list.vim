@@ -10,6 +10,7 @@ Plugin 'gmarik/Vundle.vim'
 " Utilities
 
 " Visual
+Plugin 'sjl/badwolf'
 
 call vundle#end()
 
