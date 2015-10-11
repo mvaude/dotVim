@@ -10,8 +10,6 @@ Plugin 'gmarik/Vundle.vim'
 " Utilities
 
 " Visual
-Plugin 'bling/vim-airline'
-Plugin 'chriskempson/base16-vim'
 
 call vundle#end()
 
