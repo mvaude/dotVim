@@ -3,7 +3,11 @@ set nocompatible
 
 "Required because Vundle adds new filetypes.
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
+if has("nvim")
+    set rtp+=~/.nvim/bundle/Vundle.vim
+else
+    set rtp+=~/.vim/bundle/Vundle.vim
+endif
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
