@@ -8,12 +8,14 @@ nnoremap gV `[v`]
 
 " Leader Shortcuts
 
-let mapleader="," " leader is comma
+let mapleader="\<space>" " leader is comma
 "jk is escape
 inoremap jk <esc>
 " turn off search highlight
 nnoremap <leader><space> :noh<CR>
 " space open/closes folds
-nnoremap <space> za
+nnoremap <leader><space> za
 " toggle undotree
 nnoremap <leader>u :UndotreeToggle<CR>
+" toggle ctrlp
+let g:ctrlp_map = '<leader>p'

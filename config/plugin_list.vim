@@ -9,6 +9,8 @@ else
     set rtp+=~/.vim/bundle/Vundle.vim
 endif
 call vundle#begin()
+
+
 Plugin 'gmarik/Vundle.vim'
 
 " Utilities
@@ -17,8 +19,15 @@ Plugin 'mbbill/undotree'
 " Visual
 Plugin 'sjl/badwolf'
 
-" Misc
-Plugin 'Shougo/neocomplete.vim'
+
+" Syntax checker
+Plugin 'scrooloose/syntastic'
+
+" Dynamic number lines
+Plugin 'myusuf3/numbers.vim'
+
+" CtrlP
+Plugin 'kien/ctrlp.vim'
 
 call vundle#end()
 
