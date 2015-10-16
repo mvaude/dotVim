@@ -1,35 +1,29 @@
-" required for filetype off
+"Vundle Settings {{{
 set nocompatible
-
-"Required because Vundle adds new filetypes.
 filetype off
 if has("nvim")
     set rtp+=~/.nvim/bundle/Vundle.vim
 else
     set rtp+=~/.vim/bundle/Vundle.vim
 endif
+" }}}
 call vundle#begin()
-
-
+" Utilities {{{
 Plugin 'gmarik/Vundle.vim'
-
-" Utilities
 Plugin 'mbbill/undotree'
-
-" Visual
+" }}}
+" Visual {{{
 Plugin 'sjl/badwolf'
-
-
-" Syntax checker
+" }}}
+" Syntax checker {{{
 Plugin 'scrooloose/syntastic'
-
-" Dynamic number lines
+" }}}
+" Dynamic number lines {{{
 Plugin 'myusuf3/numbers.vim'
-
-" CtrlP
+" }}}
+" CtrlP {{{
 Plugin 'kien/ctrlp.vim'
-
+" }}}
 call vundle#end()
-
-" Re-enable filetype
-filetype indent on
+filetype indent on " Re-enable filetype
+" vim:foldmethod=marker:foldlevel=0
