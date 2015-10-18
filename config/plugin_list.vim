@@ -11,6 +11,9 @@ call vundle#begin()
 " Utilities {{{
 Plugin 'gmarik/Vundle.vim'
 Plugin 'mbbill/undotree'
+Plugin 'TaskList.vim'
+Plugin 'kien/ctrlp.vim'
+" TODO find more
 " }}}
 " Visual {{{
 Plugin 'sjl/badwolf'
@@ -20,9 +23,6 @@ Plugin 'scrooloose/syntastic'
 " }}}
 " Dynamic number lines {{{
 Plugin 'myusuf3/numbers.vim'
-" }}}
-" CtrlP {{{
-Plugin 'kien/ctrlp.vim'
 " }}}
 call vundle#end()
 filetype indent on " Re-enable filetype
