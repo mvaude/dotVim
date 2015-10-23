@@ -31,10 +31,10 @@ set foldmethod=indent " fold based on indent level
 " Autogroups {{{
 augroup configgroup
     autocmd!
-    autocmd FileType c set noexpandtab shiftwidth=4 softtabstop=4
-    autocmd FileType html set expandtab shiftwidth=2 softtabstop=2
-    autocmd FileType javascript set expandtab shiftwidth=2 softtabstop=2
-    autocmd FileType python setlocal commenstring=#\ %s
+    autocmd FileType c setlocal noexpandtab shiftwidth=4 softtabstop=4
+    autocmd FileType html setlocal expandtab shiftwidth=2 softtabstop=2
+    autocmd FileType javascript setlocal expandtab shiftwidth=2 softtabstop=2
+    autocmd FileType python setlocal commentstring=#\ %s
 augroup END
 " vim:foldmethod=marker:foldlevel=0
 " }}}
